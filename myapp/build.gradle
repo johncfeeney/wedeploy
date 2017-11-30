@@ -27,6 +27,7 @@ repositories {
 
 dependencies {
   compile("org.springframework.boot:spring-boot-starter-thymeleaf")
+  compile("org.elasticsearch:elasticsearch:2.4.6")
 }
 
 task wrapper(type: Wrapper) {
