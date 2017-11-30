@@ -1,0 +1,7 @@
+{
+	"id": "elasticsearch",
+	"image": "elasticsearch:2-alpine",
+	"volume": "/usr/share/elasticsearch/data",
+	"memory": 4096,
+	"cpu": 2
+}
