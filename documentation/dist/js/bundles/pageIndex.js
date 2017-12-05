@@ -19622,7 +19622,7 @@ if (goog.DEBUG) {
  * @return {void}
  * @suppress {checkTypes}
  */
-function __deltemplate_s187_d34389eb(opt_data, opt_ignored, opt_ijData) {
+function __deltemplate_s161_d34389eb(opt_data, opt_ignored, opt_ijData) {
   ie_open('a', null, null,
       'class', 'sidebar-link ' + (opt_data.page.active ? 'sidebar-link-selected' : ''),
       'href', opt_data.page.url);
@@ -19631,16 +19631,16 @@ function __deltemplate_s187_d34389eb(opt_data, opt_ignored, opt_ijData) {
           'class', 'sidebar-icon icon-16-' + opt_data.page.icon);
     }
     ie_open('span');
-      var dyn17 = opt_data.page.title;
-      if (typeof dyn17 == 'function') dyn17(); else if (dyn17 != null) itext(dyn17);
+      var dyn15 = opt_data.page.title;
+      if (typeof dyn15 == 'function') dyn15(); else if (dyn15 != null) itext(dyn15);
     ie_close('span');
   ie_close('a');
 }
-exports.__deltemplate_s187_d34389eb = __deltemplate_s187_d34389eb;
+exports.__deltemplate_s161_d34389eb = __deltemplate_s161_d34389eb;
 if (goog.DEBUG) {
-  __deltemplate_s187_d34389eb.soyTemplateName = 'Sidebar.__deltemplate_s187_d34389eb';
+  __deltemplate_s161_d34389eb.soyTemplateName = 'Sidebar.__deltemplate_s161_d34389eb';
 }
-soy.$$registerDelegateFn(soy.$$getDelTemplateId('ElectricNavigation.anchor.idom'), 'sidebar', 0, __deltemplate_s187_d34389eb);
+soy.$$registerDelegateFn(soy.$$getDelTemplateId('ElectricNavigation.anchor.idom'), 'sidebar', 0, __deltemplate_s161_d34389eb);
 
 exports.render.params = ["section","site"];
 exports.render.types = {"section":"any","site":"any"};
@@ -19829,8 +19829,8 @@ function $render(opt_data, opt_ignored, opt_ijData) {
       ie_void('span', null, null,
           'class', 'icon icon-16-clock');
       itext(' ');
-      var dyn18 = opt_data.time;
-      if (typeof dyn18 == 'function') dyn18(); else if (dyn18 != null) itext(dyn18);
+      var dyn16 = opt_data.time;
+      if (typeof dyn16 == 'function') dyn16(); else if (dyn16 != null) itext(dyn16);
     }
   ie_close('p');
 }
@@ -28112,7 +28112,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 var templates;
 goog.loadModule(function(exports) {
 
-// This file was automatically generated from index.soy.
+// This file was automatically generated from home.soy.
 // Please don't edit this file by hand.
 
 /**
@@ -28152,7 +28152,7 @@ var $templateAlias1 = __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.getTempl
  * @suppress {checkTypes}
  */
 function $render(opt_data, opt_ignored, opt_ijData) {
-  var param148 = function() {
+  var param199 = function() {
     $header(opt_data, null, opt_ijData);
     $why(null, null, opt_ijData);
     $features(null, null, opt_ijData);
@@ -28160,7 +28160,7 @@ function $render(opt_data, opt_ignored, opt_ijData) {
     $highlights(null, null, opt_ijData);
     $footer(null, null, opt_ijData);
   };
-  $templateAlias1(soy.$$assignDefaults({content: param148}, opt_data), null, opt_ijData);
+  $templateAlias1(soy.$$assignDefaults({content: param199}, opt_data), null, opt_ijData);
 }
 exports.render = $render;
 if (goog.DEBUG) {
@@ -28182,13 +28182,13 @@ function $header(opt_data, opt_ignored, opt_ijData) {
         'class', 'container');
       ie_open('h1', null, null,
           'class', 'header-title');
-        var dyn15 = opt_data.site.title;
-        if (typeof dyn15 == 'function') dyn15(); else if (dyn15 != null) itext(dyn15);
+        var dyn17 = opt_data.site.title;
+        if (typeof dyn17 == 'function') dyn17(); else if (dyn17 != null) itext(dyn17);
       ie_close('h1');
       ie_open('h2', null, null,
           'class', 'header-subtitle');
-        var dyn16 = opt_data.site.index.description;
-        if (typeof dyn16 == 'function') dyn16(); else if (dyn16 != null) itext(dyn16);
+        var dyn18 = opt_data.site.index.description;
+        if (typeof dyn18 == 'function') dyn18(); else if (dyn18 != null) itext(dyn18);
       ie_close('h2');
       ie_open('div', null, null,
           'class', 'header-cta');
@@ -28559,9 +28559,9 @@ __webpack_require__(131);
 
 __webpack_require__(132);
 
-var _indexSoy = __webpack_require__(227);
+var _homeSoy = __webpack_require__(227);
 
-var _indexSoy2 = _interopRequireDefault(_indexSoy);
+var _homeSoy2 = _interopRequireDefault(_homeSoy);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -28585,7 +28585,7 @@ var pageIndex = function (_Component) {
 
 ;
 
-_metalSoy2.default.register(pageIndex, _indexSoy2.default);
+_metalSoy2.default.register(pageIndex, _homeSoy2.default);
 
 exports.default = pageIndex;
 

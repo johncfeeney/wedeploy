@@ -1,5 +1,5 @@
 var pageComponent =
-webpackJsonppageComponent([3,17,18,19],[
+webpackJsonppageComponent([2,17,18,19],[
 /* 0 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19622,7 +19622,7 @@ if (goog.DEBUG) {
  * @return {void}
  * @suppress {checkTypes}
  */
-function __deltemplate_s187_d34389eb(opt_data, opt_ignored, opt_ijData) {
+function __deltemplate_s161_d34389eb(opt_data, opt_ignored, opt_ijData) {
   ie_open('a', null, null,
       'class', 'sidebar-link ' + (opt_data.page.active ? 'sidebar-link-selected' : ''),
       'href', opt_data.page.url);
@@ -19631,16 +19631,16 @@ function __deltemplate_s187_d34389eb(opt_data, opt_ignored, opt_ijData) {
           'class', 'sidebar-icon icon-16-' + opt_data.page.icon);
     }
     ie_open('span');
-      var dyn17 = opt_data.page.title;
-      if (typeof dyn17 == 'function') dyn17(); else if (dyn17 != null) itext(dyn17);
+      var dyn15 = opt_data.page.title;
+      if (typeof dyn15 == 'function') dyn15(); else if (dyn15 != null) itext(dyn15);
     ie_close('span');
   ie_close('a');
 }
-exports.__deltemplate_s187_d34389eb = __deltemplate_s187_d34389eb;
+exports.__deltemplate_s161_d34389eb = __deltemplate_s161_d34389eb;
 if (goog.DEBUG) {
-  __deltemplate_s187_d34389eb.soyTemplateName = 'Sidebar.__deltemplate_s187_d34389eb';
+  __deltemplate_s161_d34389eb.soyTemplateName = 'Sidebar.__deltemplate_s161_d34389eb';
 }
-soy.$$registerDelegateFn(soy.$$getDelTemplateId('ElectricNavigation.anchor.idom'), 'sidebar', 0, __deltemplate_s187_d34389eb);
+soy.$$registerDelegateFn(soy.$$getDelTemplateId('ElectricNavigation.anchor.idom'), 'sidebar', 0, __deltemplate_s161_d34389eb);
 
 exports.render.params = ["section","site"];
 exports.render.types = {"section":"any","site":"any"};
@@ -19829,8 +19829,8 @@ function $render(opt_data, opt_ignored, opt_ijData) {
       ie_void('span', null, null,
           'class', 'icon icon-16-clock');
       itext(' ');
-      var dyn18 = opt_data.time;
-      if (typeof dyn18 == 'function') dyn18(); else if (dyn18 != null) itext(dyn18);
+      var dyn16 = opt_data.time;
+      if (typeof dyn16 == 'function') dyn16(); else if (dyn16 != null) itext(dyn16);
     }
   ie_close('p');
 }
@@ -28220,7 +28220,8 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(tutorialFirst, templa
 /* 243 */,
 /* 244 */,
 /* 245 */,
-/* 246 */
+/* 246 */,
+/* 247 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28287,4 +28288,4 @@ _metalSoy2.default.register(tutorialFirst, _indexSoy2.default);
 exports.default = tutorialFirst;
 
 /***/ })
-],[246]);
+],[247]);
