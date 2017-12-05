@@ -1,4 +1,7 @@
 {
 	"id": "documentation",
-	"image": "wedeploy/hosting"
+	"image": "wedeploy/hosting",
+	"env": {
+		"WEDEPLOY_WEB_PATH": "./dist"
+	}
 }
