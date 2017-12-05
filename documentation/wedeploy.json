@@ -1,7 +1,0 @@
-{
-    "id": "documentation",
-    "image": "wedeploy/hosting:1.0.2",
-    "env": {
-      "WEDEPLOY_WEB_PATH": "./dist"
-    }
-  }
